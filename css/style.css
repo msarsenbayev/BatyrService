@@ -93,6 +93,35 @@ h6,
     font-size:24px;
 }
 
+.phone.button {
+    text-align: center;
+}
+
+.phone.button a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.phone.button button {
+    background-color: black; /* WhatsApp green color */
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.phone.button button:hover {
+    background-color: #128C7E; /* WhatsApp dark green color on hover */
+}
+
+/* Adjust the icon style as needed */
+.phone.button i.bi-telephone {
+    margin-left: 5px;
+}
+
 /* Media Query for Mobile Screens */
 @media (max-width: 768px) {
     body {
