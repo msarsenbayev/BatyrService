@@ -14,7 +14,7 @@ body {
 }
 
 .blue-container {
-    margin: auto;
+    margin: 20px auto;
     position: relative;
     width: 400px; /* Adjust the width of the container as needed */
     height: 400px; /* This will create a square, adjust as needed */
@@ -107,15 +107,16 @@ phone call button {
 /* Media Query for Mobile Screens */
 @media (max-width: 768px) {
     body {
-        margin: 30px auto;
+        margin: 14px;
         padding: 10%;
     }
 
     .container {
-        margin: 20px auto;
+        margin: 14px;
     }
 
     .blue-container {
+        margin: 14px;
         padding: 10px;
     }
 
