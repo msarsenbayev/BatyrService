@@ -107,6 +107,7 @@ phone call button {
 /* Media Query for Mobile Screens */
 @media (max-width: 768px) {
     body {
+        margin: 30px auto;
         padding: 10%;
     }
 
