@@ -110,6 +110,10 @@ phone call button {
         padding: 10%;
     }
 
+    .container {
+        margin: 20px auto;
+    }
+
     .blue-container {
         padding: 10px;
     }
