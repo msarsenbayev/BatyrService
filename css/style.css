@@ -1,0 +1,118 @@
+body {
+    margin: 30px auto;
+    padding: 1%;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Set a background color for the body */
+    height: 200vh; /* Increase the height for scrolling effect */
+}
+
+.blue-container {
+    margin: auto;
+    position: relative;
+    width: 400px; /* Adjust the width of the container as needed */
+    height: 400px; /* This will create a square, adjust as needed */
+    background-color: #1b61e1; /* Blue color */
+    color: #ffffff; /* Text color */
+    text-align: left;
+    line-height: 100px; /* Center the text vertically */
+    border-radius: 18px;
+    padding: 64px 60px 0;
+}
+
+.blue-container-text-header {
+    max-width: 280px;
+    margin-top: 12px;
+    font: 32px SuisseNewRegular,Arial,sans-serif;
+    z-index: 1;
+}
+
+.blue-container-text-body {
+    margin: auto;
+    margin-top: 7px;
+    font: 16px SuisseNewRegular,Arial,sans-serif;
+    line-height: 20px;
+    z-index: 1;
+}
+
+.blue-container-image {
+    margin: auto;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+
+}
+
+.blue-container-image img {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    padding-right: 30px;
+}
+
+/*** Heading ***/
+h1,
+h2,
+.fw-bold {
+    font-weight: 700 !important;
+    font: 56px SuisseNewRegular,Arial,sans-serif;
+    text-align: center;
+}
+
+h3,
+h4,
+.fw-semi-bold {
+    font-weight: 600 !important;
+}
+
+h5,
+h6,
+.fw-medium {
+    font-weight: 500 !important;
+}
+
+.whats-app button {
+    border-radius: 18px;
+    background-color: black;
+    /* background-color: #25D366; */
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size:24px;
+}
+
+/* Media Query for Mobile Screens */
+@media (max-width: 768px) {
+    body {
+        padding: 10%;
+    }
+
+    .blue-container {
+        padding: 10px;
+    }
+
+    .blue-container-text-header {
+        margin: 14px;
+        font-size: 24px;
+    }
+
+    .blue-container-text-body {
+        margin: 14px;
+        font-size: 14px;
+    }
+
+    .blue-container-image {
+        top: 10px;
+        left: 10px;
+    }
+
+    .blue-container-image img {
+        padding: 10px;
+    }
+}
