@@ -9,8 +9,12 @@ body {
     height: 200vh; /* Increase the height for scrolling effect */
 }
 
+.container {
+    margin: 20px auto;
+}
+
 .blue-container {
-    margin: 10px auto;
+    margin: auto;
     position: relative;
     width: 400px; /* Adjust the width of the container as needed */
     height: 400px; /* This will create a square, adjust as needed */
@@ -75,6 +79,19 @@ h6,
 }
 
 .whats-app button {
+    border-radius: 18px;
+    background-color: black;
+    /* background-color: #25D366; */
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size:24px;
+}
+
+phone call button {
     border-radius: 18px;
     background-color: black;
     /* background-color: #25D366; */
