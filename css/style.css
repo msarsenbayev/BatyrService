@@ -130,8 +130,8 @@ h6,
     }
 
     .container {
-        margin: 14px;
-        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .blue-container {

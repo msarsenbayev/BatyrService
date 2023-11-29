@@ -14,7 +14,7 @@ function applyParallaxEffect(containerId, imageId, multiplier, maxTranslation) {
 }
 
 // Example usage with a maximum translation of 100 pixels
-applyParallaxEffect('container1', 'parallaxImage1', 0.2, 300);
-applyParallaxEffect('container2', 'parallaxImage2', 0.15, 300); // You can adjust the multiplier for each container
-applyParallaxEffect('container2', 'parallaxImage3', 0.15, 300); // You can adjust the multiplier for each container
-applyParallaxEffect('container2', 'parallaxImage4', 0.13, 300); // You can adjust the multiplier for each container
+applyParallaxEffect('container1', 'parallaxImage1', 0.15, 300);
+applyParallaxEffect('container2', 'parallaxImage2', 0.1, 300); // You can adjust the multiplier for each container
+applyParallaxEffect('container2', 'parallaxImage3', 0.1, 300); // You can adjust the multiplier for each container
+applyParallaxEffect('container2', 'parallaxImage4', 0.1, 300); // You can adjust the multiplier for each container
