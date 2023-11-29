@@ -10,7 +10,7 @@ body {
 }
 
 .blue-container {
-    margin: auto;
+    margin: 10px auto;
     position: relative;
     width: 400px; /* Adjust the width of the container as needed */
     height: 400px; /* This will create a square, adjust as needed */
@@ -25,14 +25,14 @@ body {
 .blue-container-text-header {
     max-width: 280px;
     margin-top: 12px;
-    font: 32px SuisseNewRegular,Arial,sans-serif;
+    font: 36px SuisseNewRegular,Arial,sans-serif;
     z-index: 1;
 }
 
 .blue-container-text-body {
     margin: auto;
     margin-top: 7px;
-    font: 16px SuisseNewRegular,Arial,sans-serif;
+    font: 18px SuisseNewRegular,Arial,sans-serif;
     line-height: 20px;
     z-index: 1;
 }
